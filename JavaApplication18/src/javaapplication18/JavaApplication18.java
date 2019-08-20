@@ -22,7 +22,7 @@ public class JavaApplication18 {
         
         users.checkUser(name,pass);
         */
-        atm.changePass("ATM1","6789");
+        users.changePass("ATM1","6789");
         
         for (int i = 0 ;i<users.Uname.length ;i++){
             System.out.println(users.Uname[i]+" "+users.Upass[i]+" "+users.Umoney[i]);
